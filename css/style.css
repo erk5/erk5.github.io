@@ -281,16 +281,22 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .work-item a img {
   margin-bottom: 10px;
-  float: left;
   border: 10px solid transparent;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  height: 280px;
+  margin: auto;
 }
 .work-item a h3 {
   font-size: 20px;
   color: #000;
   margin-bottom: 10px;
+  height: 65px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .work-item a p {
   font-size: 14px;
